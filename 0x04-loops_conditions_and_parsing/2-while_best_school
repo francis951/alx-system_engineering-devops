@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this shows "Besty School" 10 times
+
+count=0
+while [ $count -le 10 ]
+do
+	echo "Best School"
+	((count++))
+done
